@@ -77,6 +77,56 @@ This table represents the individual items or shipments handled by FleetOps, cap
 | created_date | DATE | The date the package entry was created in the system | |
 | estimated_delivery_date | DATE| The date by which the package is expected to be delivered to the customer | |
 
+**Table:** Service_Areas
+
+This table defines the specific geographic regions or zones that each warehouse is responsible for serving. It includes demographic and locational data crucial for evaluating market potential, delivery complexity, and current coverage efficiency. This table is pivotal for understanding how effectively current warehouses serve their territories and where potential gaps may exist.
+
+| Column Name | Data Type | Description | Constraints |
+|-------------|-----------|-------------|-------------|
+| service_area_id | VARCHAR | Unique identifier for each distinct service area segment | Primary Key |
+| warehouse_id | VARCHAR | The ID of the warehouse primarily responsible for this service area | Foreign Key referencing Warehouses.warehouse_id |
+| city | VARCHAR | The city name within the service area | |
+| state | VARCHAR | The state abbreviation where the service areas are located | |
+| zip_code | VARCHAR | The primary zip code that defines this service area segment | |
+| latitude | FLOAT | Geographic latitude of the centroid or representative point of the service area | WSG84 (ESPG:4326) |
+| longitude | FLOAT | Geographic longitude of the centroid or representative point of the service area | WSG84 (ESPG:4326) |
+| population_density | FLOAT | The number of people per square mile within this service area | |
+| distance_from_warehouse | FLOAT | The calculated distance in miles from the warehouse_id to the centroid of this service_area_id |
+
+**Table:** Deliveries
+
+This is the central transactional table, recording details for each completed package delivery. The metrics within this table are crucial for identifying inefficient delivery patterns, calculating costs, and pinpointing "high-cost delivery cities."
+
+| Column Name | Data Type | Description | Constraints |
+|-------------|-----------|-------------|-------------|
+| delivery_id | VARCHAR   | Unique identifier for each individual delivery event | Primary Key |
+| package_id  | VARCHAR   | The ID of the package being delivered | Foreign Key referencing Packages.package_id
+| driver_id | VARCHAR | The ID of the driver who performed this delivery | Foreign Key referencing Drivers.driver_id |
+| warehouse_id | VARCHAR | The ID of the warehouse from which this particular delivery was dispatched | Foreign Key referencing Warehouses.warehouse_id |
+| delivery_city | VARCHAR | The city where the package was delivered | |
+| delivery_state | VARCHAR | The state where the package was delivered | |
+| delivery_zip | VARCHAR | The zip code of the delivery destination | |
+| delivery_latitude | FLOAT | Geographic latitude of the delivery destination in decimal degrees | WGS84 (EPSG:4326) |
+| delivery_longitude | FLOAT | Geographic longitude of the delivery destination in decimal degrees | WGS84 (EPSG:4326) |
+| delivery_date | DATE | The actual date the delivery was completed | |
+| delivery_time_hours | FLOAT | The total time in hours taken for this delivery, from dispatch to completion |
+| distance_miles | FLOAT | The total distance in miles traveled for this delivery | |
+| fuel_cost | FLOAT | The estimated fuel cost incurred for this delivery | |
+| driver_cost | FLOAT | The estimated labor cost attributed to this delivery | |
+| total_cost | FLOAT | The aggregate cost incurred for this delivery | |
+| distance_from_warehouse | FLOAT | The direct-line or route distance in miles from the dispatching warehouse_id to the delivery_destination | |
+| efficiency_penalty_factor | FLOAT | A calculated factor representing increased inefficiency due to long distances, traffic, or low delivery density | |
+
+
+
+
+
+
+
+
+
+
+
 
 
 
