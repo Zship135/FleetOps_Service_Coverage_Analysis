@@ -42,6 +42,25 @@ This table contains information about existing distribution centers.
 | opened_year          | INT       | The year the warehouse became operational                                       |                   |
 | actual_daily_load    | FLOAT     | The actual volume or number of deliveries processed by the warehouse            |                   | 
 
+**Table:** Drivers
+
+This table stores detailed information about FleetOps' delivery drivers, including their assignment to specific warehouses and key performance metrics. This data is vital for understanding workforce capacity and individual contributions to delivery efficiency.
+
+| Column Name  | Data Type | Description                       | Constraints |
+|--------------|-----------|-----------------------------------|-------------|
+| driver_id    | VARCHAR   | Unique identifier for each driver | Primary Key |
+| first_name   | VARCHAR   | Driver's first name               |             |
+| last_name    | VARCHAR   | Driver's last name                |             |
+| hire_date    | DATE      | The date the driver was hired     |             |
+| tenure_years | FLOAT     | The number of years the driver has been employed | |
+| assigned_warehouse_id | VARCHAR | The ID of the warehouse to which the driver is currently assigned | Foreign Key referencing Warehouses.warehouse_id |
+| vehicle_type | VARCHAR | The type and size of the vehicle used by the driver | |
+| license_class | VARCHAR | Class of driver's license, regular or CDL | |
+| route_efficiency_score | FLOAT | Performance score indicating driver efficiency on assigned routes | |
+| on_time_delivery_rate | FLOAT | Percentage of deliveries completed on or before the scheduled time | |
+| avg_mpg | FLOAT | The average miles per gallon for the driver's vehicle | |
+| avg_daily_packages | INT | The average number of packages delivered per day | |
+| employment_status | VARCHAR | A driver is either active or on leave | |
 
 
 
