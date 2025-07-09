@@ -62,6 +62,25 @@ This table stores detailed information about FleetOps' delivery drivers, includi
 | avg_daily_packages | INT | The average number of packages delivered per day | |
 | employment_status | VARCHAR | A driver is either active or on leave | |
 
+**Table:** Packages
+
+This table represents the individual items or shipments handled by FleetOps, capturing key details about each package from creation to estimated delivery. This data is crucial for understanding demand patterns, logistics workload, and adherence to service levels.
+
+| Column Name   | Data Type | Description                                    | Constraints |
+|---------------|-----------|------------------------------------------------|-------------|
+| package_id    | VARCHAR   | Unique identifier for each package or shipment | Primary Key |
+| package_type  | VARCHAR   | Categorization of the package                  |             |
+| weight_lbs    | FLOAT     | The weight of the package in lbs               |             |
+| size_category | VARCHAR   | Classification of package based on its dimensions | |
+| priority_level | VARCHAR  | The urgency or importance assigned to the package | | 
+| origin_warehouse_id | VARCHAR | The ID of the warehouse from which the package originated | |
+| created_date | DATE | The date the package entry was created in the system | |
+| estimated_delivery_date | DATE| The date by which the package is expected to be delivered to the customer | |
+
+
+
+
+
 
 
 
