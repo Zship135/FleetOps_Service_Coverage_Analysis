@@ -14,11 +14,11 @@ To address these challenges and enhance overall network efficiency and utilizati
 
 ### Data Dictionary
 
-Table: Warehouses
+**Table:** Warehouses
 
 This table contains information about existing distribution centers.
 
-Calculated column(s): actual_daily_load = current_utilization * daily_capacity
+**Calculated column(s):** actual_daily_load = current_utilization * daily_capacity
 
 | Column Name          | Data Type | Description                                                                     | Constraints       |
 |----------------------|-----------|---------------------------------------------------------------------------------|-------------------|
