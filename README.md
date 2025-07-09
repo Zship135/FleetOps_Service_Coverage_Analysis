@@ -17,20 +17,27 @@ To address these challenges and enhance overall network efficiency and utilizati
 Table: Warehouses
 This table contains information about existing distribution centers.
 
-| Column Name    | Data Type | Description                                                                     | Constraints       |
-|----------------|-----------|---------------------------------------------------------------------------------|-------------------|
-| warehouse_id   | VARCHAR   | Unique identifier for each warehouse                                            | Primary Key       |
-| warehouse_name | VARCHAR   | Full name of warehouse                                                          |                   |
-| city           | VARCHAR   | The city in which the warehouse is located                                      |                   |
-| state          | VARCHAR   | The state in which the warehouse is located                                     |                   |
-| latitude       | FLOAT     | Geographic latitude of the warehouse in decimal degrees                         | WGS84 (ESPG:4326) |
-| longitude      | FLOAT     | Geographic longitude of the warehouse in decimal degrees                        | WGS84 (ESPG:4326) |
-| zip_code       | VARCHAR   | The postal code of the warehouse's location                                     |                   |
-| opened_date    | DATE      | The date when the warehouse began operations                                    |                   |
-| capacity_sqft  | INT       | The total physical storage capacity of the warehouse in square feet             |                   |
-| daily_capacity | INT       | The amount of inventory the warehouse can take per day                          |                   |
-| market_density | FLOAT     | Density of potential customers within the primary service area of the warehouse |         
-
+| Column Name          | Data Type | Description                                                                     | Constraints       |
+|----------------------|-----------|---------------------------------------------------------------------------------|-------------------|
+| warehouse_id         | VARCHAR   | Unique identifier for each warehouse                                            | Primary Key       |
+| warehouse_name       | VARCHAR   | Full name of warehouse                                                          |                   |
+| city                 | VARCHAR   | The city in which the warehouse is located                                      |                   |
+| state                | VARCHAR   | The state in which the warehouse is located                                     |                   |
+| latitude             | FLOAT     | Geographic latitude of the warehouse in decimal degrees                         | WGS84 (ESPG:4326) |
+| longitude            | FLOAT     | Geographic longitude of the warehouse in decimal degrees                        | WGS84 (ESPG:4326) |
+| zip_code             | VARCHAR   | The postal code of the warehouse's location                                     |                   |
+| opened_date          | DATE      | The date when the warehouse began operations                                    |                   |
+| capacity_sqft        | INT       | The total physical storage capacity of the warehouse in square feet             |                   |
+| daily_capacity       | INT       | The amount of inventory the warehouse can take per day                          |                   |
+| market_density       | FLOAT     | Density of potential customers within the primary service area of the warehouse |                   |
+| avg_fuel_price       | FLOAT     | Average fuel price (price per gallon) for vehicles in this warehouse            |                   |
+| traffic_factor       | FLOAT     | Multiplier for typical traffic congestion impact on delivery time and fuel      |                   |
+| max_delivery_radius  | INT       | Maximum radius in miles within which deliveries from this warehouse are considered efficient | |
+| avg_delivery_density | FLOAT     | The average number of deliveries per square mile within the effective service area | |
+| avg_stop_time        | FLOAT     | The average time in minutes a delivery vehicle spends at a stop                 |                   |
+| current_utilization  | FLOAT     | Current operational capacity utilization percentage                             |                   |
+| opened_year          | INT       | The year the warehouse became operational                                       |                   |
+| actual_daily_load    | FLOAT     | The actual volume or number of deliveries processed by the warehouse            |                   | 
 
 
 
