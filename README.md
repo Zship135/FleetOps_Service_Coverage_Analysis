@@ -117,7 +117,9 @@ This is the central transactional table, recording details for each completed pa
 | distance_from_warehouse | FLOAT | The direct-line or route distance in miles from the dispatching warehouse_id to the delivery_destination | |
 | efficiency_penalty_factor | FLOAT | A calculated factor representing increased inefficiency due to long distances, traffic, or low delivery density | |
 
+### ER Diagram
 
+![image](https://github.com/user-attachments/assets/03bfd7f1-9e85-4aea-84a9-873280407b6a)
 
 
 
