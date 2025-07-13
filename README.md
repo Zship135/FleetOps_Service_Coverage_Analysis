@@ -129,6 +129,27 @@ This is the central transactional table, recording details for each completed pa
 
 ![image](https://github.com/user-attachments/assets/bd270acd-557b-4edb-8d34-202c3258b212)
 
+---
+
+## Executive Summary
+
+
+
+---
+
+## Insights Deep Dive
+
+***Warehouse Utilization and Efficiency:***
+- It takes ~3 years for a warehouse to reach 50% utilization, and ~6 years for 80%-90%
+- As traffic factor increases, the average stop time for delivery decreases
+- As market density increases, the average stop time for delivery decreases
+
+
+
+---
+
+## Recommendations
+
 
 
 
