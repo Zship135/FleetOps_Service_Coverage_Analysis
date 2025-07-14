@@ -141,8 +141,16 @@ This is the central transactional table, recording details for each completed pa
 
 ***Warehouse Utilization and Efficiency:***
 - It takes ~3 years for a warehouse to reach 50% utilization, and ~6 years for 80%-90%
-- As traffic factor increases, the average stop time for delivery decreases
+- As the traffic factor increases, the average stop time for delivery decreases
 - As market density increases, the average stop time for delivery decreases
+
+The trends found in the average stop time are not what is expected. As the driver encounters more traffic and has more to deliver, the average stop time decreases. While somewhat counterintuitive, there is a potential explanation. Given tighter delivery constraints, a driver might put more effort into making the deliveries faster. Another factor could be urban vs rural deliveries. Urban deliveries may involve office buildings or apartments, which are less personal and take less time than a delivery to a single home. 
+
+<img width="752" height="564" alt="image" src="https://github.com/user-attachments/assets/276e2868-cb7f-4dac-8402-c3f4d9cfb6aa" />
+
+<img width="802" height="452" alt="image" src="https://github.com/user-attachments/assets/257454ff-f8f7-48f7-9e88-19b49be70b5e" />
+
+
 
 
 
