@@ -133,7 +133,7 @@ This is the central transactional table, recording details for each completed pa
 
 ## Executive Summary
 
-
+FleetOps has experienced a 5.4x increase in deliveries since 2020, and cities like South Bend, Niles, Jackson, and Loganport struggle due to distance from a delivery warehouse. High delivery demand and overutilization can strain our existing operations. A warehouse in Rochester, IN, or Ballville, OH, will aid cities and warehouses around them to ensure smooth growth in the coming years and keep customers around them satisfied. A warehouse around one of these areas would have a 75-mile service radius and would take roughly 5 years to reach about 75% utilization. 
 
 ---
 
@@ -178,7 +178,32 @@ The two dimensions for determining an underperforming city are the average cost 
 
 ## Recommendations
 
-Based on the cities that are struggling the most
+Based on the cities that are struggling the most, I would recommend two locations for a new warehouse:
+
+***Rochester, Indiana:***
+Covers:
+- South Bend, IN
+- Niles, MI 
+- Logansport, IN
+- Peru, IN
+- West Lafayette, IN
+- Lafayette, IN
+- LaPorte, IN
+- Kokomo, IN
+
+***Ballville, OH:***
+Covers:
+- Willard, OH
+- Toledo, OH 
+- Sandusky, OH
+- Norwalk, OH
+- Mansfield, OH
+- Ashland, OH
+- Marion, OH
+- Galion, OH
+- Bucyrus, OH
+
+Establishing warehouses in one of these two cities allows for aid in struggling areas and gives warehouses strained by them to focus on their service areas. Based on historical FleetOps data, it will take about 6 years to reach 80%-90% utilization if a new warehouse were established, and about 3 years for 50%. A map can be made to show what the warehouse coverage map for FleetOps would look like with these additions, as well as which struggling cities they would cover. The recommended service area for both of these is 75 miles, which is a little more than the average service area of existing warehouses. Given how well FleetOps has handled expansion historically, this should be no problem and will help in the future to handle the rapid increase in delivery demand. 
 
 <img width="992" height="773" alt="image" src="https://github.com/user-attachments/assets/a133a3a9-b897-4dfc-bb88-1a5d815db18e" />
 
