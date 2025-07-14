@@ -1,5 +1,10 @@
 # Geospatial Network Optimization: Identifying Strategic Warehouse Locations to Reduce Delivery Costs
 
+## Table of Contents
+- [Background](#Background)
+- [Data Model](#Data-Model)
+  - [Data Dictionary](#Data-Dictionary)
+
 ## Background
 
 FleetOps is a prominent Midwest delivery company, operating a network of 12 strategically located warehouses across Ohio, Indiana, Illinois, Wisconsin, Missouri, Minnesota, Iowa, and Michigan.
