@@ -201,7 +201,7 @@ Covers:
 - LaPorte, IN
 - Kokomo, IN
 
-***Ballville, OH:***
+***Ballville, Ohio:***
 Covers:
 - Willard, OH
 - Toledo, OH 
