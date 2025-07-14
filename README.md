@@ -4,6 +4,11 @@
 - [Background](#Background)
 - [Data Model](#Data-Model)
   - [Data Dictionary](#Data-Dictionary)
+  - [Entity Relation Diagram](#ER-Diagram)
+  - [Relational Schema](#Relational-Schema)
+- [Executive Summary](#Executive-Summary)
+- [Insights Deep Dive](#Insights-Deep-Dive)
+- [Recommendations](#Recommendations)
 
 ## Background
 
