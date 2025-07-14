@@ -150,6 +150,27 @@ The trends found in the average stop time are not what is expected. As the drive
 
 <img width="802" height="452" alt="image" src="https://github.com/user-attachments/assets/257454ff-f8f7-48f7-9e88-19b49be70b5e" />
 
+- Average cost per delivery has increased from 34.4 in 2020 to 37.4 in 2024, only an increase of 1.08x
+- Total cost of deliveries per year has grown from 93559.0 in 2020 to 509452.0 in 2024, roughly a 5.4x increase over those 4 years
+
+The average cost per delivery and the total cost per delivery over the years show strong potential for FleetOps to expand. The average cost per delivery peaked around $40 in 2018, just one year after the company was established. Since 2020, the average cost has been fairly stable. This is in contrast to the sum cost of all deliveries per year, which saw an increase of 5.4x since 2020. This shows that FleetOps has been expanding exponentially while keeping deliveries at about the same price. Containing this growth without expanding could prove difficult, giving credence to an expansion. 
+
+<img width="703" height="342" alt="image" src="https://github.com/user-attachments/assets/5d1ad5c6-58dc-4e6e-9a95-c80d263ed5f8" />
+
+<img width="703" height="342" alt="image" src="https://github.com/user-attachments/assets/f1dddeaa-c03c-4379-adf9-fc7650ded94d" />
+
+<img width="703" height="426" alt="image" src="https://github.com/user-attachments/assets/c53dfbf2-3413-48f2-bc45-79436b1caa0b" />
+
+
+***Struggling Cities:***
+- 
+
+<img width="634" height="1129" alt="image" src="https://github.com/user-attachments/assets/b0a8e570-6080-4f7e-9b1e-7098c698683c" />
+
+
+
+
+
 
 
 
