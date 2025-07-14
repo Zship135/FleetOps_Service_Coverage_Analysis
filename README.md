@@ -159,26 +159,28 @@ The average cost per delivery and the total cost per delivery over the years sho
 
 <img width="703" height="342" alt="image" src="https://github.com/user-attachments/assets/f1dddeaa-c03c-4379-adf9-fc7650ded94d" />
 
-<img width="703" height="426" alt="image" src="https://github.com/user-attachments/assets/c53dfbf2-3413-48f2-bc45-79436b1caa0b" />
-
+<img width="703" height="426" alt="image" src="https://github.com/user-attachments/assets/13ded86b-90f4-472c-baa0-e9cea554d64d" />
 
 ***Struggling Cities:***
-- 
+- The worst-performing city in terms of average total cost and distance from a warehouse is South Bend, Indiana, with an average total cost of 242.3 and a 72.3-mile distance from any warehouse
+- The first city that will be considered underperforming is Bedford, Indiana, with an average total cost of 137.5 and a 48.7-mile distance from any warehouse
+- This means that there are 46 cities considered to be underperforming
+- Indiana has 12 underperforming cities, Michigan has 9, Ohio has 17, Minnesota has 2, Wisconsin has 4, and Illinois has 1
+- Ohio is the worst state with the most underperforming cities at 17
+
+The two dimensions for determining an underperforming city are the average cost of delivery and its distance from a warehouse. This gives us a list of 46 cities that could use some extra support. When choosing cities to build a new warehouse, covering these struggling cities should be a priority.
 
 <img width="634" height="1129" alt="image" src="https://github.com/user-attachments/assets/b0a8e570-6080-4f7e-9b1e-7098c698683c" />
 
-
-
-
-
-
-
-
+<img width="2850" height="2123" alt="warehouse_service_areas_with_map" src="https://github.com/user-attachments/assets/5db554fe-41e0-46d1-827d-2b61fb7e764c" />
 
 ---
 
 ## Recommendations
 
+Based on the cities that are struggling the most
+
+<img width="992" height="773" alt="image" src="https://github.com/user-attachments/assets/a133a3a9-b897-4dfc-bb88-1a5d815db18e" />
 
 
 
